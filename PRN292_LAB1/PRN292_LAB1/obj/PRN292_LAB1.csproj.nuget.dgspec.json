@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj": {}
+    "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj": {
+    "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
+        "projectUniqueName": "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
         "projectName": "PRN292_LAB1",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
+        "projectPath": "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\obj\\",
+        "outputPath": "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
