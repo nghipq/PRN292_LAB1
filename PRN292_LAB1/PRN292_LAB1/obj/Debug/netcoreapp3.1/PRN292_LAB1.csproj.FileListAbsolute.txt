@@ -37,3 +37,16 @@ E:\VS\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.cs
 E:\VS\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.dll
 E:\VS\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.pdb
 E:\VS\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.genruntimeconfig.cache
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\PRN292_LAB1.exe
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\PRN292_LAB1.deps.json
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\PRN292_LAB1.runtimeconfig.json
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\PRN292_LAB1.runtimeconfig.dev.json
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\PRN292_LAB1.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\PRN292_LAB1.pdb
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.csprojAssemblyReference.cache
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.AssemblyInfoInputs.cache
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.AssemblyInfo.cs
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.csproj.CoreCompileInputs.cache
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.pdb
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.genruntimeconfig.cache
