@@ -10,27 +10,25 @@ namespace PRN292_LAB1.Models.DAO
     class NamHocDAO
     {
         List<NamHoc> listNH = new List<NamHoc>();//danh sach nam hoc
-        private String filename;
+        private String filename;//file stream
         public NamHocDAO()
         {
-            filename = "../../../Models/Data/NamHoc.txt";
-            FileStream fs;
+            filename = "../../../Models/Data/NamHoc.txt";//ten file
+            this.readfile();
 
-            if (File.Exists(filename))
-            {
-                fs = new FileStream(filename, FileMode.Open);
-            }
-            else
-            {
-                fs = File.Create(filename);
-            }
-
-            StreamReader rd = new StreamReader(fs, Encoding.UTF8);
-            Console.WriteLine(rd.ReadToEnd());
-
-            rd.Close();
         }
 
+        /**
+         * Danh sach Nam hoc
+         */
+        public List<NamHoc> getAllNamHoc()
+        {
+            return listNH;
+        }
+
+        /**
+         * Them nam hoc moi
+         */
         public Boolean insertNamHoc(String MA_NH, String TEN_NH)
         {
             NamHoc nh = listNH.Find(x => x.getMA_NH().Equals(MA_NH));
@@ -41,6 +39,10 @@ namespace PRN292_LAB1.Models.DAO
             listNH.Add(new NamHoc(MA_NH, TEN_NH));
             return true;
         }
+
+        /**
+         * Cap nhat nam hoc moi
+         */
         public Boolean updateNamHoc(String MA_NH, String TEN_NH)
         {
             NamHoc nh = listNH.Find(x => x.getMA_NH().Equals(MA_NH));
@@ -49,29 +51,40 @@ namespace PRN292_LAB1.Models.DAO
 
             return true;
         }
+
+        /**
+         * Doc file
+         */
         public Boolean readfile()
         {
+            //neu file khong ton tai thi tao file
             if (!File.Exists(filename))
             {
                 File.Create(filename);
             }
-
+            //read file
             StreamReader rd = new StreamReader(filename);
-
+            //doc MA_NH
             String MA_NH = rd.ReadLine();
 
             while(MA_NH != null)
             {
                 String TEN_NH = rd.ReadLine();
 
+                //them nam hoc moi
                 listNH.Add(new NamHoc(MA_NH, TEN_NH));
                 MA_NH = rd.ReadLine();
             }
             rd.Close();
             return true;
         }
+
+        /**
+         * ghi file
+         */
         public Boolean writefile()
         {
+            //noi dung file
             String value = "";
             listNH.ForEach(x =>
             {
