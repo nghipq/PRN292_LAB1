@@ -39,6 +39,10 @@ namespace PRN292_LAB1.Models.DAO
             hk.setHK(HK);
             return true;
         }
+
+        /**
+         * Doc file
+         */
         public Boolean readfile()
         {
             if (!File.Exists(filename))
