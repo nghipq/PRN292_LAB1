@@ -1,5 +1,7 @@
 ﻿using PRN292_LAB1.Models.DAO;
+using PRN292_LAB1.Models.Entity;
 using System;
+using System.Collections.Generic;
 
 namespace PRN292_LAB1
 {

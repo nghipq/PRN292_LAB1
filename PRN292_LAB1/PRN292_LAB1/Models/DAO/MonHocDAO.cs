@@ -7,10 +7,10 @@ using System.Text;
 
 namespace PRN292_LAB1.Models.DAO
 {
-    class MonHocDAO
+    public class MonHocDAO
     {
-        private List<MonHoc> listMH = new List<MonHoc>();   //danh sach mon hoc
-        private String filename;                            //filestream
+        List<MonHoc> listMH = new List<MonHoc>();   //danh sach mon hoc
+        String filename;                            //filestream
         public MonHocDAO()
         {
             //ten file
@@ -21,7 +21,7 @@ namespace PRN292_LAB1.Models.DAO
         /**
          * Lay danh sach mon hoc
          */
-        public List<MonHoc> getAllMonHoc()
+        List<MonHoc> getAllMonHoc()
         {
             return listMH;
         }
@@ -31,12 +31,15 @@ namespace PRN292_LAB1.Models.DAO
          */
         public Boolean insertMonHoc(String IDMH, String Ma_HK, String TenMH, int SoTC, int LyThuyet, int ThucHanh)
         {
+            //Tim xem ma mon hoc da ton tai hay chua
             MonHoc mh = listMH.Find(x => x.getIDMH().Equals(IDMH));
+            //neu ma mon hoc ton tai --> tra ve false
             if(mh != null)
             {
                 return false;
             }
 
+            //add mon hoc vao mang
             listMH.Add(new MonHoc(IDMH, Ma_HK, TenMH, SoTC, LyThuyet, ThucHanh));
             return true;
         }
@@ -47,6 +50,12 @@ namespace PRN292_LAB1.Models.DAO
         public Boolean updateMonHoc(String IDMH, String Ma_HK, String TenMH, int SoTC, int LyThuyet, int ThucHanh)
         {
             MonHoc mh = listMH.Find(x => x.getIDMH().Equals(IDMH));
+
+            if(mh == null)
+            {
+                return false;
+            }
+
             mh.setMa_HK(Ma_HK);
             mh.setTenMH(TenMH);
             mh.setSoTC(SoTC);
@@ -56,16 +65,22 @@ namespace PRN292_LAB1.Models.DAO
             return true;
         }
 
+        /**
+         * Doc file
+         */
         public Boolean readfile()
         {
+            StreamReader rd;
             //neu chua co file thi tao file
             if (!File.Exists(filename))
             {
-                File.Create(filename);
-            }
-
-            //read file
-            StreamReader rd = new StreamReader(filename);
+                FileStream fs = File.Create(filename);
+                rd = new StreamReader(fs, Encoding.UTF8);
+            } else
+            {
+                //read file
+                rd = new StreamReader(filename);
+            }   
 
             //doc Id Mon hoc
             String IDMH = rd.ReadLine();
