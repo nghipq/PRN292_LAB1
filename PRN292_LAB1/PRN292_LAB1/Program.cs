@@ -8,6 +8,7 @@ namespace PRN292_LAB1
         static void Main(string[] args)
         {
             MonHocDAO md = new MonHocDAO();
+            NamHocDAO nd = new NamHocDAO();
         }
     }
 }

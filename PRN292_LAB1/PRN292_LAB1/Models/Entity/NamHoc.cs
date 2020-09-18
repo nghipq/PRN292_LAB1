@@ -22,8 +22,8 @@ namespace PRN292_LAB1.Models.Entity
          */
         public NamHoc(string MA_NH, string TEN_NH)
         {
-            MA_NH = MA_NH;
-            TEN_NH = TEN_NH;
+            this.MA_NH = MA_NH;
+            this.TEN_NH = TEN_NH;
         }
 
         /**
@@ -37,7 +37,7 @@ namespace PRN292_LAB1.Models.Entity
         /**
          * set ma nam hoc
          */
-        public void setMA_NH()
+        public void setMA_NH(String MA_NH)
         {
             this.MA_NH = MA_NH;
         }
@@ -53,7 +53,7 @@ namespace PRN292_LAB1.Models.Entity
         /**
          * set ten nam hoc
          */
-        public void setTEN_NH()
+        public void setTEN_NH(String TEN_NH)
         {
             this.TEN_NH = TEN_NH;
         }
