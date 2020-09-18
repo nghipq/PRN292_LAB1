@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PRN292_LAB1.Models.DAO;
+using System;
 
 namespace PRN292_LAB1
 {
@@ -6,7 +7,7 @@ namespace PRN292_LAB1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MonHocDAO md = new MonHocDAO();
         }
     }
 }
