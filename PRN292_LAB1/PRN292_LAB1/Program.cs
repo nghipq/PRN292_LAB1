@@ -7,12 +7,12 @@ namespace PRN292_LAB1
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+
             MonHocDAO md = new MonHocDAO();
-            NamHocDAO nd = new NamHocDAO();
-=======
+           
+
             
->>>>>>> 2b832fb4daef002d646753638676e8ed38b15ee7
+
         }
     }
 }
