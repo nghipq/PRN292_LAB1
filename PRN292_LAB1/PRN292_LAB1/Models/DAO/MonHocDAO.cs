@@ -6,5 +6,6 @@ namespace PRN292_LAB1.Models.DAO
 {
     class MonHocDAO
     {
+        public MonHocDAO() { }
     }
 }
