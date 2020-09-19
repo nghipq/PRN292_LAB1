@@ -3,11 +3,14 @@
     "",
     "\\PRN292_LAB1",
     "\\PRN292_LAB1\\PRN292_LAB1",
+    "\\PRN292_LAB1\\PRN292_LAB1Tests",
+    "\\PRN292_LAB1\\PRN292_LAB1Tests\\Models",
+    "\\PRN292_LAB1\\PRN292_LAB1Tests\\Models\\DAO",
     "\\PRN292_LAB1\\PRN292_LAB1\\Models",
     "\\PRN292_LAB1\\PRN292_LAB1\\Models\\DAO",
     "\\PRN292_LAB1\\PRN292_LAB1\\Models\\Data",
     "\\PRN292_LAB1\\PRN292_LAB1\\Models\\Entity"
   ],
-  "SelectedNode": "\\PRN292_LAB1\\PRN292_LAB1\\Models\\DAO\\HocKyDAO.cs",
+  "SelectedNode": "\\PRN292_LAB1\\PRN292_LAB1.sln",
   "PreviewInSolutionExplorer": false
 }
