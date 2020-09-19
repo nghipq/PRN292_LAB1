@@ -7,10 +7,10 @@ using System.Text;
 
 namespace PRN292_LAB1.Models.DAO
 {
-    class NamHocDAO
+    public class NamHocDAO
     {
         List<NamHoc> listNH = new List<NamHoc>();//danh sach nam hoc
-        private String filename;//file stream
+        String filename;//file stream
         public NamHocDAO()
         {
             filename = "../../../Models/Data/NamHoc.txt";//ten file
@@ -21,7 +21,7 @@ namespace PRN292_LAB1.Models.DAO
         /**
          * Danh sach Nam hoc
          */
-        public List<NamHoc> getAllNamHoc()
+        List<NamHoc> getAllNamHoc()
         {
             return listNH;
         }
@@ -46,6 +46,12 @@ namespace PRN292_LAB1.Models.DAO
         public Boolean updateNamHoc(String MA_NH, String TEN_NH)
         {
             NamHoc nh = listNH.Find(x => x.getMA_NH().Equals(MA_NH));
+
+            if(nh == null)
+            {
+                return false;
+            }
+
             nh.setMA_NH(MA_NH);
             nh.setTEN_NH(TEN_NH);
 
@@ -57,13 +63,19 @@ namespace PRN292_LAB1.Models.DAO
          */
         public Boolean readfile()
         {
+            StreamReader rd;
             //neu file khong ton tai thi tao file
             if (!File.Exists(filename))
             {
-                File.Create(filename);
+                FileStream fs = File.Create(filename);
+                rd = new StreamReader(fs, Encoding.UTF8);
             }
-            //read file
-            StreamReader rd = new StreamReader(filename);
+            else
+            {
+                //read file
+                rd = new StreamReader(filename);
+            }
+            
             //doc MA_NH
             String MA_NH = rd.ReadLine();
 
