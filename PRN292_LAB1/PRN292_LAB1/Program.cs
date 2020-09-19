@@ -9,8 +9,7 @@ namespace PRN292_LAB1
     {
         static void Main(string[] args)
         {
-            //NamHocDAO nh = new NamHocDAO();
-            //List<NamHoc> listNH = nh.get
+            
         }
     }
 }
