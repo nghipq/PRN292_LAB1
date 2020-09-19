@@ -11,10 +11,7 @@ namespace PRN292_LAB1.Models.Entity
         /*
          * Tao constructor khong tham so
          */
-        public CTDT()
-        {
-
-        }
+        public CTDT() {  }
         /*
          * Tao constructor voi 2 tham so
          */

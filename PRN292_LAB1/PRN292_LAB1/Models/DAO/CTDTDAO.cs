@@ -10,11 +10,13 @@ namespace PRN292_LAB1.Models.DAO
     {
         private List<CTDT> listCTDT = new List<CTDT>();   //danh sach mon hoc
         private String filename;
+        
         public CTDTDAO()
         {
             filename = "../../../Models/Data/CTDT.txt";
             this.readfile();
         }
+        
         /**
          * Lay danh sach mon hoc
          */
@@ -22,6 +24,7 @@ namespace PRN292_LAB1.Models.DAO
         {
             return listCTDT;
         }
+        
         /**
         * Them ma nganh moi
         */
@@ -36,6 +39,7 @@ namespace PRN292_LAB1.Models.DAO
             listCTDT.Add(new CTDT(IDMH, MaNganh));
             return true;
         }
+        
         /**
         * Cap nhat ma nganh
         */
@@ -46,6 +50,10 @@ namespace PRN292_LAB1.Models.DAO
             ct.setMaNganh(MaNganh);
             return true;
         }
+        
+        /**
+         * Doc file
+         */
         public Boolean readfile()
         {
             //neu chua co file thi tao file
