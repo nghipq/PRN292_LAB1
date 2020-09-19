@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "h5YkHLWjdb/mRR8DBLiBJKH2ysksC4qrBVvCyB4FYum6KNv9jyfweCC2+d9+JOhFBrXAuD3FNul0phvXsgYMfQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
+=======
+  "dgSpecHash": "REusxkF8rCFGfpGp+id9u+E99DAsgHLPTazZfDy6cBLXUrMx9bXuX+XV+ZZKU3/VEQgYJ6sB6q19aKu4/tIveQ==",
+  "success": true,
+  "projectFilePath": "E:\\VS\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
+>>>>>>> 0d22840a81539e1151eb907094fdca1d43ea2eb0
   "expectedPackageFiles": [],
   "logs": []
 }
