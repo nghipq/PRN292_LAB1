@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PRN292_LAB1.Models.DAO
 {
-    class CTDTDAO
+    public class CTDTDAO
     {
         private List<CTDT> listCTDT = new List<CTDT>();   //danh sach mon hoc
         private String filename;
@@ -20,7 +20,7 @@ namespace PRN292_LAB1.Models.DAO
         /**
          * Lay danh sach mon hoc
          */
-        public List<CTDT> getAllCTDT()
+        List<CTDT> getAllCTDT()
         {
             return listCTDT;
         }
@@ -46,7 +46,10 @@ namespace PRN292_LAB1.Models.DAO
         public Boolean updateMaNganh(String IDMH, String MaNganh)
         {
             CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
-            ct.setIDMH(IDMH);
+            if (ct == null)
+            {
+                return false;
+            }
             ct.setMaNganh(MaNganh);
             return true;
         }
