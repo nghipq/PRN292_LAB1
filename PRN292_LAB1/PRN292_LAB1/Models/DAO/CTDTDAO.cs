@@ -30,14 +30,22 @@ namespace PRN292_LAB1.Models.DAO
         */
         public Boolean insertMaNganh(String IDMH, String MaNganh)
         {
-            CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
-            if (ct != null)
+            if (!IDMH.Equals("") && !MaNganh.Equals(""))
             {
-                return false;
+                CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
+                if (ct != null)
+                {
+                    return false;
+                }
+                else
+                {
+                    listCTDT.Add(new CTDT(IDMH, MaNganh));
+                    return true;
+                }
             }
-
-            listCTDT.Add(new CTDT(IDMH, MaNganh));
-            return true;
+            else
+                return false;
+            
         }
         
         /**
@@ -45,12 +53,15 @@ namespace PRN292_LAB1.Models.DAO
         */
         public Boolean updateMaNganh(String IDMH, String MaNganh)
         {
-            CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
-            if (ct == null)
-            {
-                return false;
-            }
-            ct.setMaNganh(MaNganh);
+
+                CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
+                if (ct == null)
+                {
+                    return false;
+                }
+                else
+                ct.setMaNganh(MaNganh);
+          
             return true;
         }
         

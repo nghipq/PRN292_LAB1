@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wiCvRLBgi04Xx0WRcCau6/ttxmUHbcR1wKY9jSninqxqv/91Mpnrj0UN4E/xhdtt7mDSW/n42ya4G3+n/Sap/w==",
+  "dgSpecHash": "mUwBSNk9LZYsuH1fTueS9pdWirH+kLMUMJVBBQs7mOOklSc7W5EuoUjvr+J7wDdqJmTkirFiRzWyPjNgw6muMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\PRN292_LAB1Tests1.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\PRN292_LAB1Tests1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -92,12 +92,5 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

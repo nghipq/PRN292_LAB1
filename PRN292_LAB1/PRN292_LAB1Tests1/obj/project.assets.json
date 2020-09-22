@@ -5737,11 +5737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\PRN292_LAB1Tests1.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\PRN292_LAB1Tests1.csproj",
       "projectName": "PRN292_LAB1Tests1",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\PRN292_LAB1Tests1.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\PRN292_LAB1Tests1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5757,8 +5757,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj"
+            "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj"
             }
           }
         }
@@ -5807,13 +5807,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Admin\\Desktop\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1Tests1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

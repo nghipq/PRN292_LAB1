@@ -13,7 +13,7 @@ namespace PRN292_LAB1.Models.DAO.Tests
         public void CTDTDAOTestInsertMaNganh1()
         {
             CTDTDAO ctdao = new CTDTDAO();
-            Boolean rs = ctdao.insertMaNganh("SE14","IT");
+            Boolean rs = ctdao.insertMaNganh("2","IT");
             Assert.AreEqual(true, rs);
         }
         [TestMethod()]
