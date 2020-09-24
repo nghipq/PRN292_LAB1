@@ -454,25 +454,41 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+=======
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+>>>>>>> 9f13f6959d5f457ccd717ff10ef3a03624441c5d
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
       "projectName": "PRN292_LAB1",
       "projectPath": "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
+      "projectName": "PRN292_LAB1",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\obj\\",
+>>>>>>> 9f13f6959d5f457ccd717ff10ef3a03624441c5d
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 9f13f6959d5f457ccd717ff10ef3a03624441c5d
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

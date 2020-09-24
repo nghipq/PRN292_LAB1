@@ -5,7 +5,7 @@ using System.IO;
 
 namespace PRN292_LAB1.Models.DAO
 {
-    class HocKyDAO
+    public class HocKyDAO
     {
         private List<HocKy> listHK = new List<HocKy>(); // danh sach hoc ky
         private String filename;    // khoi tao bien fike name
@@ -15,23 +15,41 @@ namespace PRN292_LAB1.Models.DAO
             filename = "../../../Models/Data/HocKy.txt";
             this.readfile();
         }
-        public List<HocKy> getAllHocKy()
+        /*
+          lay danh sach cac hoc ky
+         */
+        List<HocKy> getAllHocKy()
         {
             return listHK;
         }
+        /**
+         * ham them hoc ky moi
+         */
         public Boolean insertHocKy(string MA_HK, string MA_NH, string HK)
-        {
+        {   // tim xem ma hoc ky co ton tai hay khong
             HocKy hk = listHK.Find(x => x.getMA_HK().Equals(MA_HK));
+            // neu ma hk co ton tai tra ve false
             if (hk != null)
             {
                 return false;
             }
+            // add hoc ky vao mang
             listHK.Add(new HocKy(MA_HK, MA_NH, HK));
             return true;
         }
+        /**
+         * Cap nhat hoc ky
+         */
         public Boolean updateHocKy(string MA_HK, string MA_NH, string HK)
-        {
+        {   // tim xem ma hoc ky co ton tai hay khong 
             HocKy hk = listHK.Find(x => x.getMA_HK().Equals(MA_HK));
+            // neu ma hoc ky ton tai tra ve false
+            if(hk != null)
+            {
+                return false;
+            }
+
+            // goi ham set de sua doi thong tin
             hk.setMA_HK(MA_HK);
             hk.setMA_NH(MA_NH);
             hk.setHK(HK);
@@ -43,11 +61,18 @@ namespace PRN292_LAB1.Models.DAO
          */
         public Boolean readfile()
         {
+            StreamReader rd;
+            // neu chua co file thi tao file
             if (!File.Exists(filename))
             {
-                File.Create(filename);
+                FileStream fs = File.Create(filename);
+                rd = new StreamReader(fs, Encoding.UTF8);
             }
-            StreamReader rd = new StreamReader(filename);
+            else
+            {
+                // read file
+                rd = new StreamReader(filename);
+            }
             //doc Id Hoc ky
             String MA_HK = rd.ReadLine();
             //neu khong co Id hoc ky thi ngung vong lap

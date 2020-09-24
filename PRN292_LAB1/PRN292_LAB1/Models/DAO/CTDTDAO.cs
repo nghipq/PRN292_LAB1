@@ -28,26 +28,46 @@ namespace PRN292_LAB1.Models.DAO
         */
         public Boolean insertMaNganh(String IDMH, String MaNganh)
         {
-            CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
-            if (ct != null)
+            if (!IDMH.Equals("") && !MaNganh.Equals(""))
             {
-                return false;
+                CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
+                if (ct != null)
+                {
+                    return false;
+                }
+                else
+                {
+                    listCTDT.Add(new CTDT(IDMH, MaNganh));
+                    return true;
+                }
             }
-
-            listCTDT.Add(new CTDT(IDMH, MaNganh));
-            return true;
+            else
+                return false;
+            
         }
         /**
         * Cap nhat ma nganh
         */
         public Boolean updateMaNganh(String IDMH, String MaNganh)
         {
+<<<<<<< HEAD
             CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
             if (ct == null)
             {
                 return false;
             }
             ct.setMaNganh(MaNganh);
+=======
+
+                CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
+                if (ct == null)
+                {
+                    return false;
+                }
+                else
+                ct.setMaNganh(MaNganh);
+          
+>>>>>>> 9f13f6959d5f457ccd717ff10ef3a03624441c5d
             return true;
         }
         /**

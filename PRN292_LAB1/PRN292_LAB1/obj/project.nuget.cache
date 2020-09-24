@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "gt8gL2Kb3GJkhUcVm6BDPjoqAFaBhXjcQhED6OZb9jHeaK49U0H81CbpbCKIR/Y35euJcxgiwObm6pX6vBZxdw==",
   "success": true,
   "projectFilePath": "E:\\Chuyên Ngành\\C# và .NET\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
@@ -14,5 +15,11 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "NPYK8QQ2r4s/fc2JqVWL/lnA1/7zgGEZ8nqAz2t5JCj/UoP23JjHq6J87gSIgakAE/+B3Rn97OGMXqcuACk2KQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\UNIVERSITY\\FA20\\PRN292\\Test\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1\\PRN292_LAB1.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 9f13f6959d5f457ccd717ff10ef3a03624441c5d
   "logs": []
 }
