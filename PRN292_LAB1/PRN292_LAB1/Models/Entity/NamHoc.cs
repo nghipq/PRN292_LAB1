@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PRN292_LAB1.Models.Entity
 {
@@ -9,7 +7,7 @@ namespace PRN292_LAB1.Models.Entity
         //khai bao bien
         private String MA_NH;//ma nam hoc
         private String TEN_NH;//nam hoc
-        
+
         /**
          * constructor
          */

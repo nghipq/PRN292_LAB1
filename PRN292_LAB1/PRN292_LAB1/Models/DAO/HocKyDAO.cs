@@ -2,8 +2,6 @@ using PRN292_LAB1.Models.Entity;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 
 namespace PRN292_LAB1.Models.DAO
 {

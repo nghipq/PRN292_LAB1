@@ -2,29 +2,27 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace PRN292_LAB1.Models.DAO
 {
-    class CTDTDAO
+    public class CTDTDAO
     {
-        private List<CTDT> listCTDT = new List<CTDT>();   //danh sach mon hoc
-        private String filename;
-        
+         List<CTDT> listCTDT = new List<CTDT>();   //danh sach mon hoc
+         String filename;
+
         public CTDTDAO()
         {
             filename = "../../../Models/Data/CTDT.txt";
             this.readfile();
         }
-        
+
         /**
          * Lay danh sach mon hoc
          */
-        public List<CTDT> getAllCTDT()
+        List<CTDT> getAllCTDT()
         {
             return listCTDT;
         }
-        
         /**
         * Them ma nganh moi
         */
@@ -39,18 +37,19 @@ namespace PRN292_LAB1.Models.DAO
             listCTDT.Add(new CTDT(IDMH, MaNganh));
             return true;
         }
-        
         /**
         * Cap nhat ma nganh
         */
         public Boolean updateMaNganh(String IDMH, String MaNganh)
         {
             CTDT ct = listCTDT.Find(x => x.getIDMH().Equals(IDMH));
-            ct.setIDMH(IDMH);
+            if (ct == null)
+            {
+                return false;
+            }
             ct.setMaNganh(MaNganh);
             return true;
         }
-        
         /**
          * Doc file
          */
@@ -70,13 +69,35 @@ namespace PRN292_LAB1.Models.DAO
             //neu khong co Id Mon hoc thi ngung vong lap
             while (IDMH != null)
             {
-                String MaNganh = rd.ReadLine();
+                CTDT ct = new CTDT();
+                ct.setIDMH(IDMH);
+                ct.setMaNganh(rd.ReadLine());
                 //add MaNganh moi vao danh sach
-                listCTDT.Add(new CTDT(IDMH, MaNganh));
+                listCTDT.Add((ct));
                 IDMH = rd.ReadLine();
             }
 
             rd.Close();
+            return true;
+        }
+        public Boolean Write()
+        {
+            String value = "";
+            listCTDT.ForEach(x =>
+            {
+                value += x.getIDMH() + "\n";
+                value += x.getMaNganh() + "\n";
+            });
+            try
+            {
+                StreamWriter sw = new StreamWriter(filename);
+                sw.WriteLine(value);
+                sw.Close();
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
             return true;
         }
         /**

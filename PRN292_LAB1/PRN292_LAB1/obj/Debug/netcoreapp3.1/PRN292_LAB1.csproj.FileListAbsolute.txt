@@ -46,7 +46,14 @@ E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netc
 E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.csprojAssemblyReference.cache
 E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.AssemblyInfoInputs.cache
 E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.AssemblyInfo.cs
-E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.csproj.CoreCompileInputs.cache
 E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.dll
 E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.pdb
 E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.genruntimeconfig.cache
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.csproj.CoreCompileInputs.cache
+E:\Chuyên Ngành\C# và .NET\PRN292_LAB1\PRN292_LAB1\PRN292_LAB1\obj\Debug\netcoreapp3.1\PRN292_LAB1.csproj.CopyComplete

@@ -1,9 +1,7 @@
 ﻿using PRN292_LAB1.Models.Entity;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.IO;
-using System.Text;
 
 namespace PRN292_LAB1.Models.DAO
 {
@@ -32,7 +30,7 @@ namespace PRN292_LAB1.Models.DAO
         public Boolean insertNamHoc(String MA_NH, String TEN_NH)
         {
             NamHoc nh = listNH.Find(x => x.getMA_NH().Equals(MA_NH));
-            if(nh != null)
+            if (nh != null)
             {
                 return false;
             }
@@ -67,7 +65,7 @@ namespace PRN292_LAB1.Models.DAO
             //doc MA_NH
             String MA_NH = rd.ReadLine();
 
-            while(MA_NH != null)
+            while (MA_NH != null)
             {
                 String TEN_NH = rd.ReadLine();
 

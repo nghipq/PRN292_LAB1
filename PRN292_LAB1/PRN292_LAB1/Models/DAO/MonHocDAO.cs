@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 
 namespace PRN292_LAB1.Models.DAO
@@ -34,7 +33,7 @@ namespace PRN292_LAB1.Models.DAO
             //Tim xem ma mon hoc da ton tai hay chua
             MonHoc mh = listMH.Find(x => x.getIDMH().Equals(IDMH));
             //neu ma mon hoc ton tai --> tra ve false
-            if(mh != null)
+            if (mh != null)
             {
                 return false;
             }
@@ -51,7 +50,7 @@ namespace PRN292_LAB1.Models.DAO
         {
             MonHoc mh = listMH.Find(x => x.getIDMH().Equals(IDMH));
 
-            if(mh == null)
+            if (mh == null)
             {
                 return false;
             }
@@ -61,7 +60,7 @@ namespace PRN292_LAB1.Models.DAO
             mh.setSoTC(SoTC);
             mh.setLyThuyet(LyThuyet);
             mh.setThucHanh(ThucHanh);
-        
+
             return true;
         }
 
@@ -76,11 +75,12 @@ namespace PRN292_LAB1.Models.DAO
             {
                 FileStream fs = File.Create(filename);
                 rd = new StreamReader(fs, Encoding.UTF8);
-            } else
+            }
+            else
             {
                 //read file
                 rd = new StreamReader(filename);
-            }   
+            }
 
             //doc Id Mon hoc
             String IDMH = rd.ReadLine();
@@ -102,7 +102,7 @@ namespace PRN292_LAB1.Models.DAO
 
             return true;
         }
-        
+
         /**
          * Ghi file
          */

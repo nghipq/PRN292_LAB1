@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRN292_LAB1", "PRN292_LAB1\PRN292_LAB1.csproj", "{B1CFE706-C514-46F5-8F55-BFBF780B2D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN292_LAB1Tests1", "PRN292_LAB1Tests1\PRN292_LAB1Tests1.csproj", "{421FE308-D46A-47CA-A8C7-3C5AD2EC3028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRN292_LAB1Tests1", "PRN292_LAB1Tests1\PRN292_LAB1Tests1.csproj", "{421FE308-D46A-47CA-A8C7-3C5AD2EC3028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{162E5574-1490-4166-8C01-35BF010BF623}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

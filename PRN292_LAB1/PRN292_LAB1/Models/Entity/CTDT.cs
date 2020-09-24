@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PRN292_LAB1.Models.Entity
 {
@@ -11,7 +9,7 @@ namespace PRN292_LAB1.Models.Entity
         /*
          * Tao constructor khong tham so
          */
-        public CTDT() {  }
+        public CTDT() { }
         /*
          * Tao constructor voi 2 tham so
          */
