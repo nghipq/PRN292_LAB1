@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PRN292_PJ1/1.0.0": {
+        "runtime": {
+          "PRN292_PJ1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRN292_PJ1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

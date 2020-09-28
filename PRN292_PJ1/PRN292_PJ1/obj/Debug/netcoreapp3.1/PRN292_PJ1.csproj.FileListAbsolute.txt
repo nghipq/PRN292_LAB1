@@ -1,0 +1,13 @@
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\bin\Debug\netcoreapp3.1\PRN292_PJ1.exe
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\bin\Debug\netcoreapp3.1\PRN292_PJ1.deps.json
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\bin\Debug\netcoreapp3.1\PRN292_PJ1.runtimeconfig.json
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\bin\Debug\netcoreapp3.1\PRN292_PJ1.runtimeconfig.dev.json
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\bin\Debug\netcoreapp3.1\PRN292_PJ1.dll
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\bin\Debug\netcoreapp3.1\PRN292_PJ1.pdb
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\obj\Debug\netcoreapp3.1\PRN292_PJ1.csprojAssemblyReference.cache
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\obj\Debug\netcoreapp3.1\PRN292_PJ1.AssemblyInfoInputs.cache
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\obj\Debug\netcoreapp3.1\PRN292_PJ1.AssemblyInfo.cs
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\obj\Debug\netcoreapp3.1\PRN292_PJ1.csproj.CoreCompileInputs.cache
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\obj\Debug\netcoreapp3.1\PRN292_PJ1.dll
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\obj\Debug\netcoreapp3.1\PRN292_PJ1.pdb
+E:\learning\C#\PJ\PRN292_PJ1\PRN292_PJ1\obj\Debug\netcoreapp3.1\PRN292_PJ1.genruntimeconfig.cache
