@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\learning\\C#\\PJ\\PRN292_PJ1\\PRN292_PJ1\\PRN292_PJ1.csproj",
+      "projectUniqueName": "E:\\learning\\C#\\PJ\\PRN292_LAB1\\PRN292_PJ1\\PRN292_PJ1\\PRN292_PJ1.csproj",
       "projectName": "PRN292_PJ1",
-      "projectPath": "E:\\learning\\C#\\PJ\\PRN292_PJ1\\PRN292_PJ1\\PRN292_PJ1.csproj",
+      "projectPath": "E:\\learning\\C#\\PJ\\PRN292_LAB1\\PRN292_PJ1\\PRN292_PJ1\\PRN292_PJ1.csproj",
       "packagesPath": "C:\\Users\\phamq\\.nuget\\packages\\",
-      "outputPath": "E:\\learning\\C#\\PJ\\PRN292_PJ1\\PRN292_PJ1\\obj\\",
+      "outputPath": "E:\\learning\\C#\\PJ\\PRN292_LAB1\\PRN292_PJ1\\PRN292_PJ1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phamq\\AppData\\Roaming\\NuGet\\NuGet.Config",

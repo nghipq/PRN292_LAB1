@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vji90l6hyCeg2gvr7fe/MdWenOeOYLNEjtmccPnEU4GtcVHENu/rDFQdIUM9bklH33l/zOLmUETwCesJWHD9Rg==",
+  "dgSpecHash": "673vPeiHVMjXX0Z74BIMj0M+CFkxNel8HIfMUWn3aeNaFAHSF5Hk7b4tTh+N4h0fjwEl30A25aXwB0mMFhPXDw==",
   "success": true,
-  "projectFilePath": "E:\\learning\\C#\\PJ\\PRN292_PJ1\\PRN292_PJ1Tests\\PRN292_PJ1Tests.csproj",
+  "projectFilePath": "E:\\learning\\C#\\PJ\\PRN292_LAB1\\PRN292_PJ1\\PRN292_PJ1Tests\\PRN292_PJ1Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phamq\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\phamq\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
